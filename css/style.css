@@ -279,9 +279,6 @@ button {
 }
 
 @media(max-width : 1441px) {
-  /* .songList {
-    height: 315vh;
-  } */
   .card {
     width: 200px;
   }
@@ -290,23 +287,19 @@ button {
 @media (max-width: 1250px) {
     .left {
         width: 375px;
-        height: 110vh;
+        height: 100vh;
     }
     .footer {
         font-size: 10px;
     }
     .card {
         width: 13.5vw;
+        margin-bottom: 20vh;
     }
     .songList ul li {
         gap: 12px;
     }
-    /* .songList{
-        height: 360vh;
-    } */
-    /* .spotifyPlaylists{
-        height: 390vh;
-    } */
+
     .playbar {
         width: 55vw;
     }
@@ -355,6 +348,9 @@ button {
         margin: 0;
         padding: 0;
         background-color: black;
+        position: fixed;
+        top: 0;
+        
     }
     .footer {
         font-size: 8px;
@@ -491,5 +487,8 @@ button {
     top: 210px;
     opacity: 1;
   }
+}
+.left {
+  width: 100vw;
 }
 }
